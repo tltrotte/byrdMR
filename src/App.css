@@ -1,5 +1,59 @@
 .App {
   text-align: center;
+  background-color: rgb(241, 226, 206);
+  position: absolute; 
+  top:0px; 
+  bottom:0px; 
+  width: 100%
 }
 
+.navBar{
 
+}
+.heroContainer{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+ul{
+  list-style: none; 
+  display: flex;
+  flex-direction: row;
+  text-transform: uppercase;
+  font-family: Archivo;
+  justify-content: space-between;
+}
+img {
+  margin: auto;
+  display: block;
+  max-width: 300px;
+}
+.logo{
+  text-align: center;
+
+}
+h1{
+  font-size: 100px;
+  text-align: center;
+  margin: 0;
+  opacity: 0.25;
+  color: white;
+  
+
+}
+.heroText{
+  
+}
+p{
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  opacity: 0.10;
+  
+}

@@ -7,24 +7,29 @@ class HomePageNavBar extends Component {
     
        render() {
         return ( 
+    <nav className="navBar">
         <ul>
-        <li >
-          <a href="">Store</a>
-        </li>
-        <li >
-          <a href="#">Tutorials</a>
-        </li>
-        <li>
-          {/* //insert Logo */}
-        </li>
-        <li >
-          <a href="">Blog</a>
-        </li>
-        <li>
-          <a href="">Contact</a>
-        </li>
+          <li >
+            <a href="">Store</a>
+          </li>
+          <li >
+            <a href="">Tutorials</a>
+          </li>
+          <li className= 'logo'>
+              <div className= 'logoContainer'>
+                <img src="../images/Logo.png" alt="Logo" />
+              </div>
+          </li>
+          <li >
+            <a href="">Blog</a>
+          </li>
+          <li>
+            <a href="">Contact</a>
+          </li>
         
       </ul>
+
+</nav>
         );
       }
     }
