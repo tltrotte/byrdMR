@@ -11,7 +11,8 @@ class LeadForm extends Component {
     
        render() {
         return ( 
-     // Form to include Full Name, Email, Message and Send Message button      
+     // Form to include Full Name, Email, Message and Send Message button
+    <div className= "formContainer">    
             <form className="leadForm">
             <label > Full Name</label>
               <input className="input" placeholder= 'Enter your Full Name' 
@@ -26,7 +27,7 @@ class LeadForm extends Component {
              />
           <br />
           <label>Message</label>
-            <input className="messageInput" placeholder= 'What are your plans' 
+            <input className="messageInput" placeholder= 'What are your plans?' 
               value = {this.state.message} 
               onChange = {e => this.setState({message: e.target.value })}
               />
@@ -34,6 +35,7 @@ class LeadForm extends Component {
              <button className="sendMessagebtn" onClick={e => this.onSubmit(e)}> Send Message </button>
            
            </form>
+    </div>
         );
       }
     }
