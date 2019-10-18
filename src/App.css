@@ -81,6 +81,7 @@ label{
   justify-content: center;
   align-items: center;
   width: 40%; 
+  min-height: 100vh;
   
 }
 input,textarea {

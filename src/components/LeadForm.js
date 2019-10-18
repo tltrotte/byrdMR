@@ -27,7 +27,7 @@ class LeadForm extends Component {
              />
           <br />
           <label>Message</label>
-            <input className="messageInput" placeholder= 'What are your plans?' 
+            <textarea className="messageInput" placeholder= 'What are your plans?' 
               value = {this.state.message} 
               onChange = {e => this.setState({message: e.target.value })}
               />
