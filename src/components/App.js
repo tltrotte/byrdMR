@@ -7,8 +7,8 @@ import HomePageNavBar from './HomePageNavBar.js'
 function App() {
   return (
     <div className="App" >
-{/*     <HomePageNavBar />
-      <HomePageHero />   */}
+      {/* <HomePageNavBar />  */}
+     {/*  <HomePageHero />     */}
      <LeadForm />
      
     </div>

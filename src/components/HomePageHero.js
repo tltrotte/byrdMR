@@ -8,12 +8,16 @@ class HomePageHero extends Component {
     
        render() {
         return ( 
-            <div className="heroContainer" >    
-                 <img src="../images/Drone.png" alt="Drone" />
-                 <h1>F-210</h1>
-                 <p className="heroText"> "The fastest drone on the planet" </p>
-            </div> 
-        
+        // <div className="imgWithText">
+             <div className="heroContainer" >  
+                <div className="drone">     
+                    <img src="../images/Drone.png" alt="Drone" />
+                </div>
+                <img src="../images/Shadow.png" alt="Drone Shadow" />
+                     <h1>F-210</h1>
+                     <p className="heroText"> "The fastest drone on the planet" </p>
+             </div> 
+        // </div>
           
         );
       }
