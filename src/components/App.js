@@ -14,8 +14,8 @@ class App extends Component {
 		return (
 			<div className='App'>
 				<HomePageNavBar />
-				{/*  <HomePageHero />
-				 <LeadForm onSubmit={fields => this.onSubmit(fields)} /> */}
+				 <HomePageHero />
+				{/* <LeadForm onSubmit={fields => this.onSubmit(fields)} /> */}
 				          
 			</div>
 		);

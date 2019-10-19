@@ -5,12 +5,22 @@
 	top: 0px;
 	bottom: 0px;
 	width: 100%;
+	margin: 0;
+	min-height: 100vh;
 }
 
 .navBar {
 	padding: 3.75rem 0;
 	width: 100%;
 	position: absolute;
+	margin: 0;
+}
+.navBar a {
+	color: gray;
+	text-decoration: none;
+}
+.navBar a:hover {
+	color: rgba(255, 94, 0, 0.781);
 }
 .heroContainer {
 	width: 100%;
@@ -18,7 +28,8 @@
 	align-items: center;
 	display: flex;
 	flex-direction: column;
-	padding-top: 20rem;
+	padding-top: 10rem;
+	min-height: 100vh;
 }
 
 ul {
@@ -31,6 +42,9 @@ ul {
 	align-items: center;
 	padding: 0;
 }
+li {
+	text-decoration: none;
+}
 img {
 	margin: auto;
 	display: block;
@@ -41,32 +55,45 @@ img {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	max-width: 600px;
+	max-width: 400px;
 	min-height: 100%;
+	margin: 0;
+}
+.shadow {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 400px;
+	min-height: 100%;
+	margin: 0;
 }
 .logo {
-	text-align: center;
 	max-width: 200px;
 	margin: auto;
 	display: block;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	/* flex: 1; */
+	/* padding: 0rem 10rem; */
 }
 .logoContainer {
-	width: 100%;
-	position: absolute;
+	/* flex: 1; */
+}
+.headingContainer {
+	margin-bottom: 6;
 }
 li:not(.logo) {
-	/* width: 200px;
-	padding: 0rem 2rem; */
+	width: 200px;
+	padding: 0rem 2rem;
+	margin: 0;
 }
 h1 {
 	text-align: center;
 	margin: 0;
 	opacity: 0.55;
-	color: rgb(133, 25, 25);
-	font-size: 340px;
+	color: white;
+	font-size: 200px;
 	letter-spacing: -13px;
 }
 .imgWithText {
@@ -76,10 +103,11 @@ h1 {
 p {
 	text-transform: uppercase;
 	text-align: center;
-	margin: 0;
-	opacity: 0.1;
+	margin-top: 0;
 	font-size: 19px;
 	letter-spacing: 2px;
+	margin-bottom: 7rem;
+	color: gray;
 }
 .leadForm {
 	width: 75%;
@@ -130,4 +158,31 @@ input {
 	align-content: flex-start;
 	padding: 0rem 0rem 2rem;
 	font-size: 16px;
+}
+
+/* Tablet view */
+@media screen and (max-width: 950px) {
+	h1 {
+		font-size: 272px;
+	}
+	p {
+	}
+}
+
+@media screen and (max-width: 675px) {
+	h1 {
+		font-size: 252px;
+	}
+	p {
+	}
+}
+
+/* Mobile view */
+@media screen and (max-width: 375px) {
+	h1 {
+		font-size: 115px;
+	}
+	p {
+		font-size: 14px;
+	}
 }

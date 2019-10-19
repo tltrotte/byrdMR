@@ -9,8 +9,12 @@ class HomePageHero extends Component {
 				<div className='drone'>
 					<img src='../images/Drone.png' alt='Drone' />
 				</div>
-				<img src='../images/Shadow.png' alt='Drone Shadow' />
-				<h1>F-210</h1>
+				<div className='shadow'>
+					<img src='../images/Shadow.png' alt='Drone Shadow' />
+				</div>
+				<div className='headingContainer'>
+					<h1>F-210</h1>
+				</div>
 				<p className='heroText'> "The fastest drone on the planet" </p>
 			</div>
 		);
