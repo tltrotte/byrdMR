@@ -1,135 +1,133 @@
 .App {
-  height: 100vh;
-  text-align: center;
-  background-color: rgb(243, 242, 240);
-  position: absolute; 
-  top:0px; 
-  bottom:0px; 
-  width: 100%;
-  
+	text-align: center;
+	background-color: rgb(243, 242, 240);
+	position: relative;
+	top: 0px;
+	bottom: 0px;
+	width: 100%;
 }
 
-.navBar{
-  padding: 3.75rem 0;
-  width: 100%;
-  position: fixed
-
+.navBar {
+	padding: 3.75rem 0;
+	width: 100%;
+	position: absolute;
 }
-.heroContainer{
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  padding-top: 20rem;
-  
-  
-  
+.heroContainer {
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	padding-top: 20rem;
 }
 
-ul{
-  list-style: none; 
-  display: flex;
-  flex-direction: row;
-  text-transform: uppercase;
-  font-family: Archivo;
-  justify-content: space-between;
+ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	text-transform: uppercase;
+	font-family: Archivo;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0;
 }
 img {
-  margin: auto;
-  display: block;
-  max-width: 600px;
+	margin: auto;
+	display: block;
+	/* max-width: 600px; */
+	max-width: 100%;
 }
-.drone{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 100%; 
-  min-height: 100%;
-  
+.drone {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 600px;
+	min-height: 100%;
 }
-.logo{
-  text-align: center;
-  max-width: 100%;
-  margin: auto;
-  display: block;
+.logo {
+	text-align: center;
+	max-width: 200px;
+	margin: auto;
+	display: block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-.logoContainer{
-  height: 50px;
-  width: 50px;
+.logoContainer {
+	width: 100%;
+	position: absolute;
 }
 li:not(.logo) {
-  width: 200px;
+	/* width: 200px;
+	padding: 0rem 2rem; */
 }
-h1{
-  text-align: center;
-  margin: 0;
-  opacity: 0.55;
-  color: white;
-  font-size: 340px;
-  letter-spacing: -13px;
+h1 {
+	text-align: center;
+	margin: 0;
+	opacity: 0.55;
+	color: rgb(133, 25, 25);
+	font-size: 340px;
+	letter-spacing: -13px;
 }
-.imgWithText{
-
+.imgWithText {
 }
-.heroText{
-  
+.heroText {
 }
-p{
-  text-transform: uppercase;
-  text-align: center;
-  margin: 0;
-  opacity: 0.10;
-  font-size: 19px;
-  letter-spacing: 2px;
-  
+p {
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
+	opacity: 0.1;
+	font-size: 19px;
+	letter-spacing: 2px;
 }
-.leadForm{
-  width: 75%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding-top: 2rem;
+.leadForm {
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding-top: 2rem;
 }
-label{
-  margin: 0;
-  text-transform: uppercase;
-  font-size: 9px;
-  letter-spacing: 1px;
+label {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 9px;
+	letter-spacing: 1px;
 }
-.sendMessagebtn{
-  background: rgba(255, 94, 0, 0.781);
-  color: white;
-  padding: 1rem 2.5rem;
-  font-size: 15px;
+.sendMessagebtn {
+	background: rgba(255, 94, 0, 0.781);
+	color: white;
+	padding: 1rem 2.5rem;
+	font-size: 15px;
 }
-.formContainer{
-  margin-left: 25%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 42%;
-  min-height: 100vh;
-  
+.formContainer {
+	margin-left: 25%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 42%;
+	min-height: 100vh;
 }
-input,textarea {
-  margin: 0;
-  padding: 1rem 0;
-  margin-bottom: 1.5rem;
-  border: none;
-  width: 100%;
-  border-bottom:solid .5px;
-  border-bottom-color: rgb(151, 149, 149);
-  background-color: rgb(243, 242, 240);
-  font-size:16px;
+input,
+textarea {
+	margin: 0;
+	padding: 1rem 0;
+	margin-bottom: 1.5rem;
+	border: none;
+	width: 100%;
+	border-bottom: solid 0.5px;
+	border-bottom-color: rgb(151, 149, 149);
+	background-color: rgb(243, 242, 240);
+	font-size: 16px;
 }
-.messageInput, textarea{
-  padding: 0rem 0rem 4rem;
+.messageInput,
+textarea {
+	padding: 0rem 0rem 4rem;
 }
-input{
-  display: flex;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  padding: 0rem 0rem 2rem;
-  font-size:16px;
+input {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	padding: 0rem 0rem 2rem;
+	font-size: 16px;
 }
