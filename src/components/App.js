@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../App.css";
+import "../index.css";
 import LeadForm from "./LeadForm.js";
 import HomePageHero from "./HomePageHero.js";
 import HomePageNavBar from "./HomePageNavBar.js";
