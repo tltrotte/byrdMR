@@ -8,15 +8,17 @@ class LeadForm extends Component {
 		email: "",
 		message: ""
 	};
-	//One Submit handles the event, refreshs the browser and sets the state
+	//Once submit button is pressed it handles the event sets state. setState function will clear
 	onSubmit = e => {
 		e.preventDefault();
-		this.props.onSubmit(this.state);
+		// this.props.onSubmit(this.state);
 		this.setState({
 			fullName: "",
 			email: "",
 			message: ""
 		});
+		//console log shows that information was recived
+		console.log(this.state);
 	};
 	render() {
 		return (
